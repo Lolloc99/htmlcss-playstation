@@ -160,4 +160,24 @@ header {
 }
 /* /Section 3 */
 
+/* Section 4 */
+#ms_sez4 {
+    padding-bottom: 4rem;
+    background-position: center;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+.ms_logo_it-takes-two {
+    padding-top: 5rem;
+}
+
+.ms_logo_it-takes-two img {
+    width: 70%;
+}
+/* /Section 4 */
+
+/* Section 5 */
+
+/* /Section 5 */
+
 /* /Main */
