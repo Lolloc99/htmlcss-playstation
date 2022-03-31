@@ -177,7 +177,36 @@ header {
 /* /Section 4 */
 
 /* Section 5 */
+#ms_sez5 {
+    background-color: #1f1f1f;
+    padding-bottom: 4rem;
+}
 
+#ms_nuove_uscite {
+    font-size: 2.5rem;
+    padding: 1rem 0;
+    color: white;
+}
+
+#ms_ps4_ps5 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: white;
+}
+
+.ms_img_new-exit_card img {
+    border-radius: 10px;
+}
+
+.ms_p_new-exit_card {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: white;
+}
 /* /Section 5 */
+
+/* Section 6 */
+
+/* /Section 6 */
 
 /* /Main */
