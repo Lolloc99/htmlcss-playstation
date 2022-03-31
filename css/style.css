@@ -1,0 +1,36 @@
+/* COMMON */
+img {
+    width: 100%;
+}
+/* Header */
+/* Logo */
+.ms_logo {
+    text-align: end;
+    background-color: black;
+}
+
+.ms_logo img {
+    padding: 1rem;
+    width: 8rem;
+}
+/* /Logo */
+
+/* Nav */
+.ms_nav {
+    height: 4rem;
+    line-height: 4rem;
+}
+
+.ms_nav img {
+    width: 4rem;
+}
+
+#ms_nav_burger {
+    font-size: 2rem;
+    padding: 0 1rem;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    color: #737373;
+}
+/* /Nav */
+/* /Header */
