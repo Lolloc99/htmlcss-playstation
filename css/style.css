@@ -112,8 +112,8 @@ header {
 /* Main */
 
 /* Section 1 */
-.ms_bg_banner_returnal {
-    /* height: 675px; */
+.ms_sez1 {
+    height: 675px;
     margin-top: 129px;
     background-position: center;
     background-image: url(../img/jumbo-bg.png);
@@ -127,9 +127,25 @@ header {
     width: 60%;
 }
 
-.ms_text_sez {
+/* .ms_text_sez {
     padding-bottom: 3.9rem;
-}
+} */
 /* /Section 1 */
+
+/* Section 2 */
+.ms_sez2 {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+.ms_img_game_container {
+    overflow: hidden;
+    border-radius: 10px;
+}
+/* /Section 2 */
+
+/* Section 3 */
+
+/* /Section 3 */
 
 /* /Main */
