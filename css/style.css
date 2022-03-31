@@ -66,13 +66,22 @@ img {
     color: #8f8f8f;
 }
 
-/* Header */
+.ms_text_footer {
+    font-weight: 500;
+    color: white;
+}
+
+/* HEADER */
 header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     background-color: white;
+}
+
+#ms_nav_lens {
+    width: 1.5rem;
 }
 
 /* Logo */
@@ -87,7 +96,7 @@ header {
 }
 /* /Logo */
 
-/* Nav */
+/* NAV */
 .ms_nav {
     height: 4rem;
     line-height: 4rem;
@@ -129,11 +138,10 @@ header {
     font-weight: 500;
     font-size: .9rem;
 }
-/* /Nav */
-/* /Header */
+/* /NAV */
+/* /HEADER */
 
-
-/* Main */
+/* MAIN */
 
 /* Section 1 */
 #ms_sez1 {
@@ -233,7 +241,6 @@ header {
     background-color: #bebcbb;
 }
 
-
 .ms_psnow_card,
 .ms_psplus_card {
     margin: 1rem 0;
@@ -274,8 +281,76 @@ header {
 
 /* Section 10 */
 #ms_sez10 {
-    
+    margin: 5rem 0;
+}
+
+.ms_social_text {
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: center;
+    color: black;
+    margin: 5rem 0;
+}
+
+.ms_container {
+    margin: auto;
+    width: 60%;
 }
 /* /Section 10 */
+/* /MAIN */
 
-/* /Main */
+/* FOOTER */
+footer {
+    background-color: #00439c;
+    padding: 5rem 0;
+}
+
+/* Footer top */
+.ms_footer_top {
+    margin-bottom: 4rem;
+}
+
+.ms_logo_ps_footer {
+    width: 6rem;
+}
+
+.ms_logo_globe_footer {
+    width: 1.5rem;
+}
+
+.ms_footer_globe {
+    display: inline-block;
+    margin: 2rem 0;
+    margin-right: .7rem;
+}
+
+.ms_text_footer ul {
+    list-style: none;
+}
+
+.ms_text_footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.ms_text_footer li {
+    padding: .4rem;
+}
+/* /Footer top */
+
+/* Footer bottom */
+.ms_footer_bottom {
+    margin-bottom: 4rem;
+}
+
+#ms_logo_sie_footer {
+    width: 9rem;
+}
+
+#ms_more_info {
+    text-decoration: underline;
+    color: white;
+}
+/* /Footer bottom */
+
+/* /FOOTER */
