@@ -6,6 +6,7 @@ img {
 /* BUTTONS */
 .ms_btn_red,
 .ms_btn_blue,
+.ms_btn_light,
 .ms_btn_black {
     font-weight: 500;
     padding: 0.5rem 1rem;
@@ -25,6 +26,13 @@ img {
     color: white;
     background-color: #2d64e6;
     border: 1px solid #2d64e6;
+}
+
+.ms_btn_light {
+    color: #3167e6;
+    font-weight: 700;
+    background-color: #d9dadc;
+    border: none;
 }
 
 /* TEXT */
@@ -213,8 +221,36 @@ header {
 
 /* Section 7 */
 #ms_sez7 {
-    
+    margin: 7rem 0;
+    background-color: #bebcbb;
+}
+
+.ms_psplus_card {
+    margin: 1rem 0;
+}
+
+.ms_psplus_card img {
+    width: 60%;
+}
+
+.ms_p_plus {
+    padding: 1rem 0;
+}
+
+.ms_p_plus {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.ms_fake_padding_bottom {
+    padding-bottom: 5rem;
 }
 /* /Section 7 */
+
+/* Section 8 */
+#ms_sez8 {
+    
+}
+/* /Section 8 */
 
 /* /Main */
