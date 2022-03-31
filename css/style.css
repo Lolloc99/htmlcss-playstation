@@ -2,6 +2,18 @@
 img {
     width: 100%;
 }
+
+.ms_btn_black {
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    color: white;
+    background-color: #363636;
+    border: 1px solid #363636;
+    border-radius: 20px;
+}
+
+/* btn rosso #cd3d0f */
+
 /* Header */
 /* Logo */
 .ms_logo {
@@ -32,5 +44,43 @@ img {
     border-radius: 5px;
     color: #737373;
 }
+
+.ms_nav_extend_dx ul,
+.ms_nav_extend_sx ul {
+    list-style: none;
+    padding: 0;
+}
+
+.ms_nav_extend_dx li,
+.ms_nav_extend_sx li {
+    display: inline-block;
+    padding-right: 1rem;
+}
+
+.ms_nav_extend_dx li img,
+.ms_nav_extend_sx li img{
+    width: 10px;
+}
+
+.ms_nav_extend_dx a,
+.ms_nav_extend_sx a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: .9rem;
+}
 /* /Nav */
 /* /Header */
+
+
+/* Main */
+
+/* Section 1 */
+.ms_bg_banner_returnal {
+    height: 675px;
+    background-position: center;
+    background-image: url(../img/jumbo-bg.png);
+}
+/* /Section 1 */
+
+/* /Main */
