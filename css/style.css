@@ -5,6 +5,7 @@ img {
 
 /* BUTTONS */
 .ms_btn_red,
+.ms_btn_blue,
 .ms_btn_black {
     font-weight: 500;
     padding: 0.5rem 1rem;
@@ -20,10 +21,16 @@ img {
     border: 1px solid #cd3d0f;
 }
 
+.ms_btn_blue {
+    color: white;
+    background-color: #2d64e6;
+    border: 1px solid #2d64e6;
+}
+
 /* TEXT */
 .ms_title_text_dark,
 .ms_title_text {
-    font-size: 3rem;
+    font-size: 2.8rem;
     margin: 1rem 0;
     color: white;
 }
@@ -34,6 +41,7 @@ img {
 
 .ms_subtitle_text_dark,
 .ms_subtitle_text {
+    font-size: 1.3rem;
     font-weight: 500;
     color: white;
 }
@@ -112,7 +120,7 @@ header {
 /* Main */
 
 /* Section 1 */
-.ms_sez1 {
+#ms_sez1 {
     height: 675px;
     margin-top: 129px;
     background-position: center;
@@ -133,7 +141,7 @@ header {
 /* /Section 1 */
 
 /* Section 2 */
-.ms_sez2 {
+#ms_sez2 {
     margin-top: 2rem;
     margin-bottom: 5rem;
 }
@@ -145,7 +153,11 @@ header {
 /* /Section 2 */
 
 /* Section 3 */
-
+#ms_blue_text {
+    text-align: center;
+    margin-top: 7rem;
+    color: #1e82d4;
+}
 /* /Section 3 */
 
 /* /Main */
