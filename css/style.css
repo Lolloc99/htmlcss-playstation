@@ -7,6 +7,7 @@ img {
 .ms_btn_red,
 .ms_btn_blue,
 .ms_btn_light,
+.ms_btn_white,
 .ms_btn_black {
     font-weight: 500;
     padding: 0.5rem 1rem;
@@ -32,6 +33,13 @@ img {
     color: #3167e6;
     font-weight: 700;
     background-color: #d9dadc;
+    border: none;
+}
+
+.ms_btn_white {
+    color: black;
+    font-weight: 700;
+    background-color: white;
     border: none;
 }
 
@@ -225,14 +233,18 @@ header {
     background-color: #bebcbb;
 }
 
+
+.ms_psnow_card,
 .ms_psplus_card {
     margin: 1rem 0;
 }
 
+.ms_psnow_card img,
 .ms_psplus_card img {
     width: 60%;
 }
 
+.ms_p_now,
 .ms_p_plus {
     padding: 1rem 0;
 }
@@ -255,8 +267,15 @@ header {
 
 /* Section 9 */
 #ms_sez9 {
-    
+    margin: 5rem 0;
+    background-color: #161c3b;
 }
 /* /Section 9 */
+
+/* Section 10 */
+#ms_sez10 {
+    
+}
+/* /Section 10 */
 
 /* /Main */
