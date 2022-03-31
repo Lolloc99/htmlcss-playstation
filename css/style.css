@@ -3,6 +3,8 @@ img {
     width: 100%;
 }
 
+/* BUTTONS */
+.ms_btn_red,
 .ms_btn_black {
     font-weight: 500;
     padding: 0.5rem 1rem;
@@ -12,9 +14,43 @@ img {
     border-radius: 20px;
 }
 
-/* btn rosso #cd3d0f */
+.ms_btn_red {
+    color: white;
+    background-color: #cd3d0f;
+    border: 1px solid #cd3d0f;
+}
+
+/* TEXT */
+.ms_title_text_dark,
+.ms_title_text {
+    font-size: 3rem;
+    margin: 1rem 0;
+    color: white;
+}
+
+.ms_title_text_dark {
+    color: black;
+}
+
+.ms_subtitle_text_dark,
+.ms_subtitle_text {
+    font-weight: 500;
+    color: white;
+}
+
+.ms_subtitle_text_dark {
+    color: #8f8f8f;
+}
 
 /* Header */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+}
+
 /* Logo */
 .ms_logo {
     text-align: end;
@@ -77,9 +113,22 @@ img {
 
 /* Section 1 */
 .ms_bg_banner_returnal {
-    height: 675px;
+    /* height: 675px; */
+    margin-top: 129px;
     background-position: center;
     background-image: url(../img/jumbo-bg.png);
+}
+
+.ms_logo_returnal {
+    padding-top: 17rem;
+}
+
+.ms_logo_returnal img {
+    width: 60%;
+}
+
+.ms_text_sez {
+    padding-bottom: 3.9rem;
 }
 /* /Section 1 */
 
