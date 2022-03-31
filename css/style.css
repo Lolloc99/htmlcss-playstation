@@ -154,7 +154,6 @@ header {
 
 /* Section 3 */
 #ms_blue_text {
-    text-align: center;
     margin-top: 7rem;
     color: #1e82d4;
 }
@@ -206,7 +205,10 @@ header {
 /* /Section 5 */
 
 /* Section 6 */
-
+#ms_sez6 {
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
 /* /Section 6 */
 
 /* /Main */
