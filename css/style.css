@@ -1,6 +1,14 @@
 /* COMMON */
+html {
+    font-size: 100%;
+}
+
 img {
     width: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* BUTTONS */
@@ -63,7 +71,7 @@ img {
 }
 
 .ms_subtitle_text_dark {
-    color: #8f8f8f;
+    color: rgba(0, 0, 0, .6);
 }
 
 .ms_text_footer {
@@ -225,8 +233,8 @@ header {
     color: white;
 }
 
-#ms_ps4_ps5 {
-    font-size: 1.8rem;
+#ms_ps4_ps5_text {
+    font-size: 1.7rem;
     font-weight: 400;
     color: white;
 }
@@ -246,6 +254,10 @@ header {
 #ms_sez6 {
     padding-top: 3rem;
     padding-bottom: 5rem;
+}
+
+.ms_card_ps4 {
+    margin: 2rem 0;
 }
 /* /Section 6 */
 
@@ -275,8 +287,12 @@ header {
     font-weight: 500;
 }
 
-.ms_fake_padding_bottom {
-    padding-bottom: 5rem;
+.ms_fake_padding {
+    padding: 1.2rem 0;
+}
+
+.ms_fake_padding_small {
+    padding: 1rem 0;
 }
 /* /Section 7 */
 
@@ -305,11 +321,6 @@ header {
     color: black;
     margin: 5rem 0;
 }
-
-.ms_container {
-    margin: auto;
-    width: 60%;
-}
 /* /Section 10 */
 /* /MAIN */
 
@@ -320,6 +331,7 @@ footer {
 }
 
 /* Footer top */
+.ms_footer_bottom,
 .ms_footer_top {
     margin-bottom: 4rem;
 }
@@ -353,10 +365,6 @@ footer {
 /* /Footer top */
 
 /* Footer bottom */
-.ms_footer_bottom {
-    margin-bottom: 4rem;
-}
-
 #ms_logo_sie_footer {
     width: 9rem;
 }
@@ -366,5 +374,4 @@ footer {
     color: white;
 }
 /* /Footer bottom */
-
 /* /FOOTER */
