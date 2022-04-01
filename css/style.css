@@ -112,6 +112,7 @@ header {
     left: 0;
     right: 0;
     background-color: white;
+    z-index: 999;
 }
 
 #ms_nav_lens {
@@ -223,17 +224,18 @@ header {
     color: #1e82d4;
 }
 
-.ms_accessories_selected {
+#ms_selected_accessories {
     border-bottom: 2px solid #2787d5;
+    filter: opacity(1);
 }
 
-.ms_accessories_unselected {
+.ms_accessories_selection {
     border-bottom: 2px solid transparent;
     filter: opacity(.7);
     transition: .4s;
 }
 
-.ms_accessories_unselected:hover {
+.ms_accessories_selection:hover {
     border-bottom: 2px solid #2787d5;
     filter: opacity(1);
 }
