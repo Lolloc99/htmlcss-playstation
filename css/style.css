@@ -105,6 +105,10 @@ body {
     color: white;
 }
 
+.ms_ml {
+    margin-left: .4rem;
+}
+
 /* HEADER */
 header {
     position: fixed;
@@ -170,7 +174,7 @@ header {
 .ms_nav_extend_sx a {
     text-decoration: none;
     color: black;
-    font-weight: 500;
+    font-weight: 600;
     font-size: .9rem;
 }
 /* /NAV */
@@ -251,6 +255,7 @@ header {
 #ms_sez4 {
     padding-bottom: 4rem;
     background-position: center;
+    background-repeat: no-repeat;
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 
@@ -402,7 +407,7 @@ footer {
 }
 
 .ms_text_footer li {
-    padding: .4rem;
+    padding: .3rem;
 }
 /* /Footer top */
 
