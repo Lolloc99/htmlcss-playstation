@@ -23,6 +23,12 @@ body {
     background-color: #363636;
     border: 1px solid #363636;
     border-radius: 20px;
+    transition: .1s
+}
+
+.ms_btn_black:hover {
+    outline: 2px solid #363636;
+    outline-offset: 2px;
 }
 
 .ms_btn_red {
@@ -31,10 +37,20 @@ body {
     border: 1px solid #cd3d0f;
 }
 
+.ms_btn_red:hover {
+    outline: 2px solid #cd3d0f;
+    outline-offset: 2px;
+}
+
 .ms_btn_blue {
     color: white;
     background-color: #2d64e6;
     border: 1px solid #2d64e6;
+}
+
+.ms_btn_blue:hover {
+    outline: 2px solid #2d64e6;
+    outline-offset: 2px;
 }
 
 .ms_btn_light {
@@ -44,11 +60,21 @@ body {
     border: none;
 }
 
+.ms_btn_light:hover {
+    outline: 2px solid #d9dadc;
+    outline-offset: 2px;
+}
+
 .ms_btn_white {
     color: black;
     font-weight: 700;
     background-color: white;
     border: none;
+}
+
+.ms_btn_white:hover {
+    outline: 2px solid white;
+    outline-offset: 2px;
 }
 
 /* TEXT */
@@ -166,10 +192,6 @@ header {
 .ms_logo_returnal img {
     width: 60%;
 }
-
-/* .ms_text_sez {
-    padding-bottom: 3.9rem;
-} */
 /* /Section 1 */
 
 /* Section 2 */
@@ -178,9 +200,20 @@ header {
     margin-bottom: 5rem;
 }
 
-.ms_img_game_container {
-    overflow: hidden;
+.ms_img_game_container,
+.ms_img_game_container img {
     border-radius: 10px;
+    transition: .4s;
+}
+
+.ms_game_selected {
+    border: 2px solid #2787d5;
+    padding: 2px;
+    border-radius: 15px;
+}
+
+.ms_game_unselected:hover {
+    transform: translate(0px, -12px);
 }
 /* /Section 2 */
 
@@ -190,12 +223,19 @@ header {
     color: #1e82d4;
 }
 
-.ms_border_b_selected {
+.ms_accessories_selected {
     border-bottom: 2px solid #2787d5;
 }
 
-.ms_border_b {
+.ms_accessories_unselected {
     border-bottom: 2px solid transparent;
+    filter: opacity(.7);
+    transition: .4s;
+}
+
+.ms_accessories_unselected:hover {
+    border-bottom: 2px solid #2787d5;
+    filter: opacity(1);
 }
 
 .ms_md_p_text {
